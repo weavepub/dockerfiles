@@ -1,0 +1,12 @@
+{
+"registry-mirrors": ["https://registry.docker-cn.com"],
+"max-concurrent-downloads": 5,
+"max-concurrent-uploads": 5,
+"storage-driver": "overlay2",
+"storage-opts": ["overlay2.override_kernel_check=true"],
+"log-driver": "json-file",
+"log-opts": {
+    "max-size": "100m",
+    "max-file": "3"
+    }
+}
