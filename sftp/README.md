@@ -6,7 +6,7 @@
 
 
 
-#### 1 docker 上部署
+### 1.docker 上部署
 
 **1）指定账号密码运行**
 
@@ -54,7 +54,7 @@ docker run -it \
 
 
 
-#### 2 rancher 部署注意事项
+### 2.rancher 部署注意事项
 
 rancher部署参考：[Setting up a FTP-server in Kubernetes](https://cloudlets.io/en/kubernetes-blog/setting-up-ftp-server-in-kubernetes/)
 
@@ -66,7 +66,7 @@ rancher部署参考：[Setting up a FTP-server in Kubernetes](https://cloudlets.
 
 
 
-#### 3 连接方式
+### 3.连接方式
 
 账号密码连接
 
