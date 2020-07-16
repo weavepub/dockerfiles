@@ -29,6 +29,18 @@ docker run -itd \
     -p 32101:22 wmht/sftp-key
 ```
 
+> 密钥对文件会在第一次运行时候创建，复制密钥对，后面所有的账户都用该密钥对验证。
+
+```
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub
+```
+
+
+
+
+
 **2）指定密钥运行**
 
 /host/users.conf
